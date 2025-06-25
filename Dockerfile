@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 #Use the support docker image for python as a starting point
-FROM python:3.9-slim-buster
+FROM python:3.11-slim-buster
 
 # Install mkdocs and other dependencies
 RUN --mount=type=cache,sharing=private,target=/var/cache/apt \
